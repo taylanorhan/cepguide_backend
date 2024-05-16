@@ -1,0 +1,68 @@
+/* Genel Body Stilleri */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #333; /* Koyu arka plan rengi */
+  color: #fff; /* Beyaz yazı rengi */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form Stilleri */
+form {
+  background: #444; /* Form arka planı koyu gri */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* Sabit genişlik */
+}
+
+input,
+button {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+input {
+  border: 2px solid #555; /* Input kenarlık rengi */
+  background: transparent;
+  color: white;
+}
+
+button {
+  background-color: #0066ff; /* Mavi buton arka planı */
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056e0; /* Buton hover durumu */
+}
+
+/* Link Stilleri */
+a {
+  color: #59e;
+  text-align: center;
+  display: block; /* Linkleri blok olarak ayarla */
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Başlık Stilleri */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
